@@ -1,4 +1,4 @@
-# VocalHealth AI - Medical Voice Agent Assistant
+# VocalHealth AI - Medical Voice Assistant
 
 VocalHealth AI is a state-of-the-art medical consultation platform that uses real-time AI voice agents to conduct symptom triage and health assessments. Built with Next.js and integrated with advanced AI models, it provides users with instant, accurate medical guidance through natural conversations.
 
@@ -79,15 +79,6 @@ To ensure sustainable API usage, the platform implements a credit system:
 - **Starting Balance**: Every new user receives **5 credits**.
 - **Consumption**: **1 credit** is deducted for every new consultation session started.
 - **Enforcement**: Consultations are automatically blocked when the balance reaches zero.
-
-## 📋 Deployment
-
-The project is optimized for deployment on **Vercel**:
-
-1. Push your code to a GitHub repository.
-2. Connect the repository to Vercel.
-3. Add all environment variables from your `.env` to the Vercel project settings.
-4. Deploy!
 
 ## 📄 License
 
