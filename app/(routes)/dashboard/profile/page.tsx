@@ -71,7 +71,7 @@ function ProfilePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                <UserButton className="h-16 w-16"/>
+                <UserButton />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Hello, {UserDetail?.name || user?.fullName || 'User'}</h1>
